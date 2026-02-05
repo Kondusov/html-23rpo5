@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+h1{
+    border: 5px solid #000;
+    margin: 40px;
+    padding: 35px;
+    background-color: #d6e97b;
+}
+.nav-bar {
+    background-color: rgb(128, 193, 151);
+    display: inline-block;
+    max-width: 25%;
+    margin-right: 37px;
+    
+}
+.rigth-content{
+    display: inline-block;
+    width: 77%;
+}
+.ul-bar {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.item {
+    background-color: cadetblue;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 1,5em;
+    text-align: center;
+    list-style-type: none;
+}
+img{
+    max-width: 250px;
+}

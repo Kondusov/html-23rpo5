@@ -1,0 +1,10 @@
+https://developer.mozilla.org/ru/docs/Web/CSS/Reference/Properties/margin
+https://developer.mozilla.org/ru/docs/Web/CSS/Reference/Properties/padding
+https://developer.mozilla.org/ru/docs/Web/HTML/Reference/Elements/ol
+https://developer.mozilla.org/ru/docs/Web/HTML/Reference/Elements/ul
+
+Подключите css стили к HTML странице
+Прочтите про отступы (внешние и внутренние) - попрактикуйтесь в написании
+этих стилей.
+Создайте список, и сделайте отступы.
+Сделайте элементы списка ссылками.
