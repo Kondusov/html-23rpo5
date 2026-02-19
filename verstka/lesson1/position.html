@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        body{
+            padding-top: 70px;
+        }
+        .fixed{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: aqua;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70px;
+            /* display: none; */
+            
+        }
+        .sticky{
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(255, 136, 0);
+        }
+        article{
+            position: relative;
+            height: 300px;
+            width: 100%;
+            background-color: blueviolet;
+            /* display: none;
+            visibility: hidden; */
+        }
+        .sqare{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 0, 0);
+        }
+        footer{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(64, 210, 38);
+           
+        }
+    </style>
+</head>
+<body>
+    <nav class="fixed">
+        <p><a href="#">Ссылка</a></p>
+        <p><a href="#">Ссылка</a></p>
+        <p><a href="#">Ссылка</a></p>
+        <p><a href="#">Ссылка</a></p>
+        <p><a href="#">Ссылка</a></p>
+    </nav>
+    <section class="list-block">
+        <ol>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+        </ol>
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+        </ul>
+    </section>
+    <nav class="sticky">
+        <p><a href="#">Ссылка</a></p>
+        <p><a href="#">Ссылка</a></p>
+        <p><a href="#">Ссылка</a></p>
+        <p><a href="#">Ссылка</a></p>
+        <p><a href="#">Ссылка</a></p>
+    </nav>
+    <section class="list-block">
+        <ol>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+        </ol>
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+        </ul>
+    </section>
+    <section class="list-block">
+        <ol>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+        </ol>
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+        </ul>
+    </section>
+    <section class="list-block">
+        <ol>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolorem sed suscipit quaerat aliquam, cupiditate necessitatibus molestiae odio unde facere perspiciatis reiciendis, ab eligendi dolore sequi vero consectetur nobis animi.</li>
+        </ol>
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim eveniet, iure quia totam, reiciendis accusamus quidem amet, facilis est saepe alias magni a minus unde dolor reprehenderit ipsum? Consectetur.</li>
+        </ul>
+    </section>
+    <article>
+        <div class="sqare"></div>
+    </article>
+    <footer>
+        <p><a href="#">Ссылка</a></p>
+        <p><a href="#">Ссылка</a></p>
+        <p><a href="#">Ссылка</a></p>
+        <p><a href="#">Ссылка</a></p>
+        <p><a href="#">Ссылка</a></p>
+    </footer>
+</body>
+</html>
