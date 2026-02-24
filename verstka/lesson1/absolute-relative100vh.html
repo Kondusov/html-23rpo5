@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-size: 17px;
+        }
+
+        body {}
+
+        .puk {
+            background-color: rgb(143, 198, 238);
+            height: 50vh;
+
+        }
+
+        .panel {
+            margin-bottom: 100px;
+        }
+
+        .test {
+            position: relative;
+        }
+
+        .columns {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            font-size: 15px;
+        }
+
+        .columns p {
+            font-size: 1.2rem;
+        }
+
+        .item1 {
+            position: absolute;
+            top: 4px;
+            left: 6px;
+            width: 50px;
+            height: 50px;
+            background-color: aqua;
+        }
+
+        .item2 {
+            position: absolute;
+            top: 6px;
+            left: 10px;
+            z-index: 1;
+            width: 50px;
+            height: 50px;
+            background-color: rgb(25, 0, 255);
+        }
+
+        .item3 {
+            position: absolute;
+            top: 8px;
+            left: 14px;
+            z-index: 2;
+            width: 50px;
+            height: 50px;
+            background-color: rgb(255, 0, 111);
+        }
+
+        .item4 {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: rgb(206, 230, 27);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="puk">
+
+    </div>
+
+    <div class="panel">
+
+        <div class="columns">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nisi repudiandae ab tenetur itaque
+                reprehenderit, corporis eum mollitia accusantium voluptas voluptates, quos numquam rem obcaecati quidem
+                recusandae ea. Non, quos.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nisi repudiandae ab tenetur itaque
+                reprehenderit, corporis eum mollitia accusantium voluptas voluptates, quos numquam rem obcaecati quidem
+                recusandae ea. Non, quos.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nisi repudiandae ab tenetur itaque
+                reprehenderit, corporis eum mollitia accusantium voluptas voluptates, quos numquam rem obcaecati quidem
+                recusandae ea. Non, quos.</p>
+        </div>
+    </div>
+    <div class="test">
+        <p class="item1"></p>
+        <p class="item2"></p>
+        <p class="item3"></p>
+        <p class="item4"></p>
+    </div>
+</body>
+
+</html>
